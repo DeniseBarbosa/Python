@@ -1,38 +1,54 @@
+## Aula 01 - Tipos Primitivos de Dados em Python
 
-# A criação de uma variável é realizada por meio da declaração e a atribuição de um valor à ela:
-#
-# variavel = valor
+### Exemplos do tipo `int`
 
-pessoa = 'Denise Pereira'
-idade = 29
-altura = 1.70
-print(pessoa, idade, altura)
+x = 3
+y = -3
+big = 1749827547520493820958092845092845092845092845908298364923748027458972459872435
 
-texto = 'Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande Este é um texto grande'
-porcentagem = 0.5
-numero = -100
-print(numero)
+z = 5 + x
 
-idade = 2022 - 1992
-print(idade)
+print(x, y)
+print(big + x)
+print(z)
 
-decimal = 15 / 4
-print(decimal)
+### Exemplos do tipo `float`
 
-variavel = 0
-var22iavel = 99
-print(variavel, var22iavel)
+a = 3.5
+b = -3.5
+c = -a
+pi = 3.1415926535897932384626433832795028841971693993751058209749
+d = 3.0
+f = x + a
+print(a, b, c, d)
+print(pi)
+print(f)
 
-NOME = 'Denise'
-Sobrenome = 'Prinsloo'
-print(NOME, Sobrenome)
+### Exemplos do tipo `bool`
 
-nome = 'João'
-Nome = 'Luiz'
-print(nome, NOME, Nome)
+habilitado = True
+pendencias = False
+print(habilitado)
+print(pendencias)
 
-_valor_total_ = 1000
-print(_valor_total_)
+### Exemplos do tipo `str`
 
-FOR = 32
-print(FOR)
+cidade = 'São Paulo'
+nome = "Denise"
+texto = '''Denise mora na cidade de São Paulo.'''
+print(cidade, ' - ', nome)
+print(texto)
+
+frase = 'Eu estou escrevendo um "texto" com aspas duplas'
+frase2 = "Eu estou escrevendo um 'texto' com aspas simples"
+print(frase)
+print(frase2)
+
+texto_longo = '''Este é um valor       de string
+declarado utilizando   
+     uma tripla de aspas que inclusive pode conter
+   aspas 'simples' e "duplas" dentro dela.'''
+print(texto_longo)
+
+### O tipo especial `NoneType`
+
