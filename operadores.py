@@ -61,3 +61,23 @@ print(True or False)
 print((10 > 1) and True)
 print(not (True or False))
 print(not ('palavra' == 'palavra'))
+
+s1 = 'Belo'
+s2 = 'Horizonte'
+
+# Concatenação (+)
+print(s1 + s2)
+print(s1 + ' ' + s2)
+print(s1 + ' Monte')
+
+# Repetição
+print(s1 * 5)
+print((s1 + ', ') * 4)
+
+s1 = 'consolação'
+s2 = 'sola'
+
+print(s1 in s2)
+print(s2 in s1)
+print('solar' in s1)
+print('solar' not in s2)
