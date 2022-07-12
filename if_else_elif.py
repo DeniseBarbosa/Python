@@ -78,3 +78,50 @@ elif idade < 60:
 else:
     faixa_etaria = 'Idoso'
 print('Faixa Etária: ', faixa_etaria)
+
+
+n = 0
+while n <= 15 and n == 0:
+    print(n, 'Meu nome é Pit')
+    n = n + 1
+print('Fim do programa')
+
+n = 15
+soma = 0
+contador = 0
+
+while contador <= n:
+    print('soma', soma)
+    print('contador', contador)
+    soma = soma + contador
+    contador = contador + 1
+    print('soma depois', soma)
+    print('contador depois', contador)
+    print()
+
+print(f'A soma dos primeiros {n} inteiros é {soma}')
+
+
+
+# exemplo com n = 15
+n = 15
+soma = 0
+
+while n >= 0:
+    soma = soma + n
+    n = n - 1
+
+print(f'A soma dos primeiros inteiros é {soma}')
+
+
+# exemplo de palavra: araraquara
+p = 'araraquara'
+contador_A = 0
+contador_R = 0
+
+for letra in p:
+    if letra == 'a':
+        contador_A = contador_A + 1
+    if letra == 'r':
+        contador_R = contador_R + 1
+print(f"A palavara {p} possuí {contador_A} letras 'a' e {contador_R} letras 'r'")
